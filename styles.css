@@ -7,16 +7,20 @@ body {
 
 .upper {
     padding-bottom: 100px;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;
+    gap: 500px;
+    margin: 20px;
+    margin-bottom: 100px;
 }
 
 .Logo {
     font-size: 24px;
+    margin-left: 190px;
+    color: white;
 }
 
 .links {
@@ -24,17 +28,21 @@ body {
     gap: 30px;
     font-size: 18px;
     align-items: center;
+    color: #9e9e9e;;
 }
 
 .body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 130px;
 }
 
 .information {
     display: flex;
     flex-direction: column ;
-    width: 300px;
+    width: 400px;
+    justify-content: center;
+    color: white;
 }
 
 .info-head {
@@ -48,6 +56,11 @@ body {
 
 .upper-button {
     align-self: flex-start;
+    border:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 30px;
 }
 
 .image {
@@ -55,7 +68,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    padding: 50px 100px;
+    padding: 100px 160px;
     background-color:#E5E7EB;
 }
 .boxhead {
@@ -63,20 +76,33 @@ body {
     justify-content: center;
     font-size: 36px;
     font-weight: 900;
-    padding: 20px;
+    padding: 40px;
 }
 
 .boxes {
     display: flex; 
     justify-content: center;
-    gap: 30px;
-    padding-bottom: 20px;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.boxbox {
+    display: flex;
+    flex-direction: column;
 }
 
 .box {
     padding: 80px;
     border: #3882F6;
     border-style: solid;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.boxtext{
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .middle-two {
@@ -84,47 +110,78 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    background-color:#E5E7EB;;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote {
     font-size: 36px;
-    font-style:italic;
+    font-style: italic;
+    width: 700px;
+    color: rgb(61, 61, 61);
 }
 
 .credit {
-    padding-left: 100px;
+    padding-left: 500px;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    font-size: 24px;
 }
 
 .bluebox {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     width:fit-content;
-    padding: 20px;
+    padding: 30px;
     border:#3882F6;
     border-style: solid;
     margin:auto;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 900px;
+    border-radius: 10px;
+    background-color: #3882F6;
 }
 
-.boxtext {
+.boxfont {
     display: flex;
     flex-direction: column;
 }
 
 .lower-button {
     align-self: center;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.fonthead {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+.fontbody{
+    font-size: 18px;
+    color:white;
+}
 .footer {
     display: flex;
     justify-content: center;
+    background-color:#1F2937;
+    padding: 20px;
+    color: white;
 }
 
 button {
     background-color: #3882F6;
     border-radius: 5px;
-    border: 0;
     font-size: 14px;
     color: white;
 }
