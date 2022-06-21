@@ -1,11 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.upper {
+    padding-bottom: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .Logo {
@@ -30,6 +37,15 @@ body {
     width: 300px;
 }
 
+.info-head {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.info-body {
+    font-size: 18px;
+}
+
 .upper-button {
     align-self: flex-start;
 }
@@ -38,28 +54,57 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
+    padding: 50px 100px;
+    background-color:#E5E7EB;
 }
 .boxhead {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
 }
 
 .boxes {
     display: flex; 
     justify-content: center;
-    gap: 200px;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.box {
+    padding: 80px;
+    border: #3882F6;
+    border-style: solid;
 }
 
 .middle-two {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+}
+
+.credit {
+    padding-left: 100px;
 }
 
 .bluebox {
     display: flex;
     justify-content: center;
     gap: 50px;
+    width:fit-content;
+    padding: 20px;
+    border:#3882F6;
+    border-style: solid;
+    margin:auto;
+    margin-bottom: 20px;
 }
 
 .boxtext {
@@ -74,4 +119,12 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    color: white;
 }
