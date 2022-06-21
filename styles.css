@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxhead {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex; 
+    justify-content: center;
+    gap: 200px;
+}
+
+.middle-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bluebox {
+    display: flex;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
