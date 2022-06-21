@@ -8,9 +8,15 @@ body {
     justify-content: space-between;
 }
 
+.Logo {
+    font-size: 24px;
+}
+
 .links {
     display: flex;
     gap: 30px;
+    font-size: 18px;
+    align-items: center;
 }
 
 .body {
@@ -18,6 +24,21 @@ body {
     justify-content: space-around;
 }
 
+.information {
+    display: flex;
+    flex-direction: column ;
+    width: 300px;
+}
+
+.upper-button {
+    align-self: flex-start;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .boxhead {
     display: flex;
     justify-content: center;
@@ -37,11 +58,17 @@ body {
 
 .bluebox {
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .boxtext {
     display: flex;
     flex-direction: column;
+}
+
+.lower-button {
+    align-self: center;
 }
 
 .footer {
