@@ -3,11 +3,12 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .upper {
-    padding-bottom: 100px;
-    background-color: #1F2937;
+    padding-bottom: 120px;
+    background-color: #282828;
 }
 
 .header {
@@ -63,13 +64,8 @@ body {
     height: 30px;
 }
 
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding: 100px 160px;
-    background-color:#E5E7EB;
+.middle {
+    background-color:#101010;;
 }
 .boxhead {
     display: flex;
@@ -77,6 +73,7 @@ body {
     font-size: 36px;
     font-weight: 900;
     padding: 40px;
+    color: white;
 }
 
 .boxes {
@@ -93,7 +90,7 @@ body {
 
 .box {
     padding: 80px;
-    border: #3882F6;
+    border: black;
     border-style: solid;
     border-radius: 10px;
     align-self: center;
@@ -103,6 +100,8 @@ body {
     width: 200px;
     font-size: 18px;
     text-align: center;
+    color: white;
+    padding-top: 10px;
 }
 
 .middle-two {
@@ -110,7 +109,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    background-color:#E5E7EB;;
+    background-color:#282828;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -119,12 +118,12 @@ body {
     font-size: 36px;
     font-style: italic;
     width: 700px;
-    color: rgb(61, 61, 61);
+    color: white
 }
 
 .credit {
     padding-left: 500px;
-    color: rgb(0, 0, 0);
+    color: white;
     font-weight:bolder;
     font-size: 24px;
 }
@@ -135,14 +134,14 @@ body {
     gap: 200px;
     width:fit-content;
     padding: 30px;
-    border:#3882F6;
+    border:#240090;
     border-style: solid;
     margin:auto;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 900px;
     border-radius: 10px;
-    background-color: #3882F6;
+    background-color: #240090;
 }
 
 .boxfont {
@@ -152,9 +151,9 @@ body {
 
 .lower-button {
     align-self: center;
-    border-color: white;
+    border-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
@@ -174,14 +173,38 @@ body {
 .footer {
     display: flex;
     justify-content: center;
-    background-color:#1F2937;
+    background-color:#282828;
     padding: 20px;
     color: white;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #3500D3;
     border-radius: 5px;
     font-size: 14px;
     color: white;
+}
+
+.boxone {
+    background-color: #0C0032;
+    color:#0C0032;
+}
+
+.boxtwo {
+    color: #190061;
+    background-color: #190061;
+}
+
+.boxthree {
+    background-color: #240090;
+    color: #240090;
+}
+
+.boxfour {
+    background-color: #3500D3;
+    color: #3500D3;
+}
+
+.lower {
+    background-color: #101010;
 }
