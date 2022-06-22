@@ -21,7 +21,7 @@ body {
 .Logo {
     font-size: 24px;
     margin-left: 190px;
-    color: white;
+    color: #9e9e9e;
 }
 
 .links {
@@ -43,16 +43,17 @@ body {
     flex-direction: column ;
     width: 400px;
     justify-content: center;
-    color: white;
 }
 
 .info-head {
     font-size: 48px;
     font-weight: 900;
+    color: white;
 }
 
 .info-body {
     font-size: 18px;
+    color:#9e9e9e;
 }
 
 .upper-button {
@@ -100,7 +101,7 @@ body {
     width: 200px;
     font-size: 18px;
     text-align: center;
-    color: white;
+    color:#9e9e9e;
     padding-top: 10px;
 }
 
@@ -118,7 +119,7 @@ body {
     font-size: 36px;
     font-style: italic;
     width: 700px;
-    color: white
+    color:#9e9e9e;
 }
 
 .credit {
@@ -168,7 +169,7 @@ body {
 
 .fontbody{
     font-size: 18px;
-    color:white;
+    color:#9e9e9e;
 }
 .footer {
     display: flex;
